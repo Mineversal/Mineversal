@@ -10,12 +10,12 @@
         <meta name="google-site-verification" content=""/>
         <meta property="og:title" content="Mineversal - Universe in your hand"/>
         <meta property="og:description"content="Mineversal is everything you need"/>
-        <meta property="og:image" content="https://mineversal.com/assets/img/logo2.png"/>
+        <meta property="og:image" content=""/>
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="https://mineversal.com/"/>
+        <meta property="og:url" content=""/>
         
         <!-- Default CSS -->
-        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/style.css">
         
         <!-- API Font -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -25,8 +25,8 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
         
         <!-- Title and Icon -->
-        <link rel="shortcut icon" href="../assets/img/logo2.ico"/>
-        <link rel="apple-touch-icon" href="../assets/img/logo2.png">
+        <link rel="shortcut icon" href="assets/img/logo2.ico"/>
+        <link rel="apple-touch-icon" href="assets/img/logo2.png">
         <title>Mineversal | About</title>
     </head>
     <body class="bg-dark font-monospace fs-5">
@@ -38,7 +38,7 @@
             <div class="container">
                 <div class="row text-white">
                     <div class="col-md-6 col-sm-12 text-center align-self-center">
-                        <img id="asset-1-about" data-aos="fade-right"  data-aos-delay="200" data-aos-duration="800" src="../assets/img/logo2.png" alt="logo Mineversal">
+                        <img id="asset-1-about" data-aos="fade-right"  data-aos-delay="200" data-aos-duration="800" src="assets/img/logo2.png" alt="logo Mineversal">
                     </div>
                     <div class="col-md-6 col-sm-12 align-self-center p-4" data-aos="fade-left"  data-aos-delay="200" >
                         <h3>About Mineversal</h3>
