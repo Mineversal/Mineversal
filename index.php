@@ -10,12 +10,12 @@
         <meta name="google-site-verification" content=""/>
         <meta property="og:title" content="Mineversal - Universe in your hand"/>
         <meta property="og:description"content="Mineversal is everything you need"/>
-        <meta property="og:image" content="https://mineversal.com/assets/img/logo2.png"/>
+        <meta property="og:image" content=""/>
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="https://mineversal.com/"/>
+        <meta property="og:url" content=""/>
         
         <!-- Default CSS -->
-        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/style.css">
         
         <!-- API Font -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -25,8 +25,8 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
         
         <!-- Title and Icon -->
-        <link rel="shortcut icon" href="../assets/img/logo2.ico"/>
-        <link rel="apple-touch-icon" href="../assets/img/logo2.png">
+        <link rel="shortcut icon" href="assets/img/logo2.ico"/>
+        <link rel="apple-touch-icon" href="assets/img/logo2.png">
         <title>Mineversal | Home</title>
     </head>
     <body class="bg-dark font-monospace fs-5">
@@ -43,21 +43,21 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="../assets/img/Milky-Way.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/Milky-Way.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Milky Way</h5>
                             <p>Our Home</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="../assets/img/Neowise.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/Neowise.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Neowise</h5>
                             <p>Light of Hope</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="../assets/img/Moon-And-Andromeda.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/Moon-And-Andromeda.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Moon and Andromeda</h5>
                             <p>Our Light in The Darkness of the Night and Our Neighborhood</p>
@@ -87,9 +87,9 @@
                 <div class="row mx-4">
                     <div class ="col-md-4">
                         <div class="lesson-wrap mx-auto">
-                            <a class="text-center" href="https://news.mineversal.com" id="lesson-btn">
+                            <a class="text-center" href="" id="lesson-btn">
                                 <div class="lesson-wrap-1 my-3">
-                                    <img src="../assets/img/logo2.png" alt="" srcset="" width="100">
+                                    <img src="assets/img/logo2.png" alt="" srcset="" width="100">
                                     <h1>News And Blog</h1>
                                     <p>Keep and stay update with us</p>
                                 </div>
@@ -98,9 +98,9 @@
                     </div>
                     <div class ="col-md-4">
                         <div class="lesson-wrap">
-                            <a class="text-center" href="https://beauty.mineversal.com" id="lesson-btn">
+                            <a class="text-center" href="" id="lesson-btn">
                                 <div class="lesson-wrap-1 my-3">
-                                    <img src="../assets/img/logo2.png" alt="" srcset="" width="100">
+                                    <img src="assets/img/logo2.png" alt="" srcset="" width="100">
                                     <h1>Beauty</h1>
                                     <p>Keep and stay beautiful with us</p>
                                 </div>
@@ -109,9 +109,9 @@
                     </div>
                     <div class ="col-md-4">
                         <div class="lesson-wrap">
-                            <a class="text-center" href="https://music.mineversal.com" id="lesson-btn">
+                            <a class="text-center" href="" id="lesson-btn">
                                 <div class="lesson-wrap-1 my-3">
-                                    <img src="../assets/img/logo2.png" alt="" srcset="" width="100">
+                                    <img src="assets/img/logo2.png" alt="" srcset="" width="100">
                                     <h1>Music</h1>
                                     <p>Listen our new music</p>
                                 </div>
@@ -125,7 +125,7 @@
         <section class="container-fluid section-welcome">
             <div class="row">
                 <div class="col-md-3 d-sm-none d-md-block col-logo py-5 px-5 text-center">
-                    <img src="../assets/img/logo2.png" alt="" srcset="" width="250">
+                    <img src="assets/img/logo2.png" alt="" srcset="" width="250">
                 </div>
                 <div class="col-md-9 col-sm-12 col-text text-white py-5 px-5">
                     <h3>Mineversal supports nature preservation</h3>
