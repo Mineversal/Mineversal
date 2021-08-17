@@ -10,9 +10,9 @@
         <meta name="google-site-verification" content=""/>
         <meta property="og:title" content="Mineversal - Universe in your hand"/>
         <meta property="og:description"content="Mineversal is everything you need"/>
-        <meta property="og:image" content="https://mineversal.com/assets/img/logo2.png"/>
+        <meta property="og:image" content=""/>
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="https://mineversal.com/"/>
+        <meta property="og:url" content=""/>
         
         <!-- Default CSS -->
         <link rel="stylesheet" href="../assets/css/style.css">
@@ -37,7 +37,7 @@
                     <button class="navbar-toggler navbar-toggler-left" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a class="navbar-brand" id="brand" href="https://mineversal.com"><img src="../assets/img/logo.png" width="200"></a>
+                    <a class="navbar-brand" id="brand" href=""><img src="../assets/img/logo.png" width="200"></a>
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -55,10 +55,10 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-fw fa-folder"></i> Our Business</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="https://news.mineversal.com">News</a></li>
-                                    <li><a class="dropdown-item" href="https://music.mineversal.com">Music</a></li>
+                                    <li><a class="dropdown-item" href="">News</a></li>
+                                    <li><a class="dropdown-item" href="">Music</a></li>
                                     <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="https://beauty.mineversal.com">Beauty</a></li>
+                                    <li><a class="dropdown-item" href="">Beauty</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -86,7 +86,7 @@
         
         <!-- Dashboard -->
         <section class="container-fluid section-about">
-            <div class="col-md-9 ms-sm-auto col-lg-10 px-md-4 kanan">
+            <div class="col-md-9 ms-sm-auto col-lg-10 px-md-4 kanan pb-3">
                 <div class="container-fluid mb-5 pt-5 text-white">
                     <h2>Dashboard</h2>
                     <hr>
@@ -95,7 +95,7 @@
                             <a class="dashboard-card" href="#">
                                 <div class="card bg-dark">
                                     <div class="card-body mx-0 row text-white">
-                                        <i class="icon mx-0 fa fa-user col-5"></i>
+                                        <i class="icon mx-0 fa fa-user col-5" style="font-size: 60px;"></i>
                                         <div class="col-7">
                                             <p class="text-left row col-md-12" title="Statistics">Pesan</p>
                                             <h2 class="text-left row col-md-12">12<small></small></h2>
@@ -108,7 +108,7 @@
                             <a class="dashboard-card" href="#">
                                 <div class="card bg-dark">
                                     <div class="card-body mx-0 row text-white">
-                                        <i class="icon mx-0 fa fa-user col-5"></i>
+                                        <i class="icon mx-0 fa fa-user col-5" style="font-size: 60px;"></i>
                                         <div class="col-7">
                                             <p class="text-left row col-md-12" title="Statistics">Pesan</p>
                                             <h2 class="text-left row col-md-12">12<small></small></h2>
@@ -121,7 +121,7 @@
                             <a class="dashboard-card" href="#">
                                 <div class="card bg-dark">
                                     <div class="card-body mx-0 row text-white">
-                                        <i class="icon mx-0 fa fa-user col-5"></i>
+                                        <i class="icon mx-0 fa fa-user col-5" style="font-size: 60px;"></i>
                                         <div class="col-7">
                                             <p class="text-left row col-md-12" title="Statistics">Pesan</p>
                                             <h2 class="text-left row col-md-12">12<small></small></h2>
@@ -134,7 +134,7 @@
                             <a class="dashboard-card" href="#">
                                 <div class="card bg-dark">
                                     <div class="card-body mx-0 row text-white">
-                                        <i class="icon mx-0 fa fa-user col-5"></i>
+                                        <i class="icon mx-0 fa fa-user col-5" style="font-size: 60px;"></i>
                                         <div class="col-7">
                                             <p class="text-left row col-md-12" title="Statistics">Pesan</p>
                                             <h2 class="text-left row col-md-12">12<small></small></h2>
@@ -162,7 +162,7 @@
                             <li><a href="term">Term of Services</a></li>
                             <li><a href="policy">Privacy Policy</a></li>
                             <li><a href="disclaimer">Disclaimer</a></li>
-                            <li><a href="https://ads.mineversal.com/">Advertising</a></li>
+                            <li><a href="">Advertising</a></li>
                             <!----<li><a href="">Verification</a></li> -->
                         </ul>
                     </div>
@@ -184,8 +184,12 @@
                             <a href="https://youtube.com/mineversal" class="fa fa-youtube"></a>
                         </div>
                         <div class="mt-2">
+                            <a href="https://www.linkedin.com/company/mineversal" class="fa fa-linkedin"></a>
                             <a href="https://wa.me/+6285156633114" class="fa fa-whatsapp"></a>
+                            <a href="https://github.com/mineversal" class="fa fa-github"></a>
                             <a href="https://t.me/mineversal" class="fa fa-telegram"></a>
+                        </div>
+                        <div class="mt-2">
                             <a href="https://sestyc.com/user/mineversal" class="fa fa-heart"></a>
                             <a href="https://open.spotify.com/artist/7mG43AWgnlQIYNbQXsBFfy?si=D4tcTrCrSPSrhljhtCn1_Q" class="fa fa-spotify"></a>
                         </div>
