@@ -211,72 +211,6 @@
                                 <a type="submit" style="width: 10rem;" class="btn btn-dark submit" name="btn-send">Send Message</a>
                             </div>
                         </form>
-                        <!-- WHATSAPP FORM -->
-                        <script>
-                            //No Admin
-                            $("#noAdmin").val("");
-                            $('.whatsapp-btn').click(function () {
-                                $('#whatsapp').toggleClass('toggle');
-                            });
-                            // Onclick Whatsapp Sent!
-                            $('#whatsapp .submit').click(WhatsApp);
-                            $("#whatsapp input, #whatsapp textarea").keypress(function () {
-                                if (event.which == 13) whatsApp();
-                            });
-                            var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
-                            function WhatsApp() {
-                                var ph = '';
-                                if ($('#whatsapp .name').val() == '') { // Cek Nama
-                                    ph = $('#whatsapp .name').attr('placeholder');
-                                    alert('Silahkan tulis ' + ph);
-                                    $('#whatsapp .name').focus();
-                                    return false;
-                                } else if ($('#whatsapp .email').val() == '') { // Cek Email
-                                    ph = $('#whatsapp .email').attr('placeholder');
-                                    alert('Silahkan tulis ' + ph);
-                                    $('#whatsapp .email').focus();
-                                    return false;
-                                } else if ($('#whatsapp .number').val() == '') { // Cek Whatsapp
-                                    ph = $('#whatsapp .number').attr('placeholder');
-                                    alert('Silahkan tulis ' + ph);
-                                    $('#whatsapp .number').focus();
-                                    return false;
-                                } else if ($('#whatsapp .subject').val() == '') { // Cek Subject
-                                    ph = $('#whatsapp .subject').attr('placeholder');
-                                    alert('Silahkan tulis ' + ph);
-                                    $('#whatsapp .subject').focus();
-                                    return false;
-                                } else if ($('#whatsapp .msg').val() == '') { // Cek Pesan
-                                    ph = $('#whatsapp .msg').attr('placeholder');
-                                    alert('Silahkan tulis ' + ph);
-                                    $('#whatsapp .msg').focus();
-                                    return false;
-                                } else {
-                                    // Check Device (Mobile/Desktop)
-                                    var url_wa = 'https://api.whatsapp.com/send';
-                                    if (/Android|webOS|iPhone|iPad|iPod|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-                                        url_wa = 'https://api.whatsapp.com/send';
-                                    }
-                                    // Get Value
-                                    var tujuan = $('#whatsapp .tujuan').val(),
-                                        via_url = location.href,
-                                        name = $('#whatsapp .name').val(),
-                                        email = $ ('#whatsapp .email').val(),
-                                        number = $('#whatsapp .number').val(),
-                                        subject = $('#whatsapp .subject').val(),
-                                        msg = $('#whatsapp .msg').val();
-                                    $(this).attr('href', url_wa + '?phone=6285156633114'+ tujuan + '&text=Name: ' + name + ' %0A%0AEmail: ' + email + ' %0A%0ANumber: ' + number + '%0A%0ASubject: ' + subject + '%0A%0AMessage: ' + msg + ' %0A%0AWebsite: ' + via_url);
-                                    var w = 960,
-                                        h = 540,
-                                        left = Number((screen.width / 2) - (w / 2)),
-                                        tops = Number((screen.height / 2) - (h / 2)),
-                                        popupWindow = window.open(this.href, '', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=1, copyhistory=no, width=' + w + ', height=' + h + ', top=' + tops + ', left=' + left);
-                                    popupWindow.focus();
-                                    return false;
-                                }
-                            }
-                        </script>
-                        <!-- WHATSAPP FORM END -->
                     </div>
                 </div>
             </div>
@@ -339,5 +273,71 @@
                 </div>
             </div>
         </footer>
+        <!-- WHATSAPP FORM -->
+        <script>
+            //No Admin
+            $("#noAdmin").val("");
+            $('.whatsapp-btn').click(function () {
+                $('#whatsapp').toggleClass('toggle');
+            });
+            // Onclick Whatsapp Sent!
+            $('#whatsapp .submit').click(WhatsApp);
+            $("#whatsapp input, #whatsapp textarea").keypress(function () {
+                if (event.which == 13) whatsApp();
+            });
+            var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+            function WhatsApp() {
+                var ph = '';
+                if ($('#whatsapp .name').val() == '') { // Cek Nama
+                    ph = $('#whatsapp .name').attr('placeholder');
+                    alert('Silahkan tulis ' + ph);
+                    $('#whatsapp .name').focus();
+                    return false;
+                } else if ($('#whatsapp .email').val() == '') { // Cek Email
+                    ph = $('#whatsapp .email').attr('placeholder');
+                    alert('Silahkan tulis ' + ph);
+                    $('#whatsapp .email').focus();
+                    return false;
+                } else if ($('#whatsapp .number').val() == '') { // Cek Whatsapp
+                    ph = $('#whatsapp .number').attr('placeholder');
+                    alert('Silahkan tulis ' + ph);
+                    $('#whatsapp .number').focus();
+                    return false;
+                } else if ($('#whatsapp .subject').val() == '') { // Cek Subject
+                    ph = $('#whatsapp .subject').attr('placeholder');
+                    alert('Silahkan tulis ' + ph);
+                    $('#whatsapp .subject').focus();
+                    return false;
+                } else if ($('#whatsapp .msg').val() == '') { // Cek Pesan
+                    ph = $('#whatsapp .msg').attr('placeholder');
+                    alert('Silahkan tulis ' + ph);
+                    $('#whatsapp .msg').focus();
+                    return false;
+                } else {
+                    // Check Device (Mobile/Desktop)
+                    var url_wa = 'https://api.whatsapp.com/send';
+                    if (/Android|webOS|iPhone|iPad|iPod|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                        url_wa = 'https://api.whatsapp.com/send';
+                    }
+                    // Get Value
+                    var tujuan = $('#whatsapp .tujuan').val(),
+                        via_url = location.href,
+                        name = $('#whatsapp .name').val(),
+                        email = $ ('#whatsapp .email').val(),
+                        number = $('#whatsapp .number').val(),
+                        subject = $('#whatsapp .subject').val(),
+                        msg = $('#whatsapp .msg').val();
+                    $(this).attr('href', url_wa + '?phone=6285156633114'+ tujuan + '&text=Name: ' + name + ' %0A%0AEmail: ' + email + ' %0A%0ANumber: ' + number + '%0A%0ASubject: ' + subject + '%0A%0AMessage: ' + msg + ' %0A%0AWebsite: ' + via_url);
+                    var w = 960,
+                        h = 540,
+                        left = Number((screen.width / 2) - (w / 2)),
+                        tops = Number((screen.height / 2) - (h / 2)),
+                        popupWindow = window.open(this.href, '', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=1, copyhistory=no, width=' + w + ', height=' + h + ', top=' + tops + ', left=' + left);
+                    popupWindow.focus();
+                    return false;
+                }
+            }
+        </script>
+        <!-- WHATSAPP FORM END -->
     </body>
 </html>
