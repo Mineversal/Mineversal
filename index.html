@@ -184,7 +184,7 @@
                     </div>
                     <!-- ASK FORM -->
                     <div class="col-md-7 col-sm-12 col-ask-form py-3 px-5 mb-2">
-                        <div id="whatsapp">
+                        <form method="" action="" id="whatsapp">
                             <input class="tujuan" type="hidden" id="noAdmin">
                             <div class="row mb-4">
                                 <div class="col">
@@ -210,7 +210,7 @@
                             <div class="text-center">
                                 <button type="submit" style="width: 10rem;" class="btn btn-dark submit" name="btn-send">Send Message</button>
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -326,8 +326,8 @@
                         email = $('#whatsapp .email').val(),
                         number = $('#whatsapp .number').val(),
                         subject = $('#whatsapp .subject').val(),
-                        msg = $('#whatsapp .msg').val(),
-                        $(this).attr('href', url_wa + '?phone=6285156633114'+ tujuan + '&text=Name: ' + name + ' %0A%0AEmail: ' + email + ' %0A%0APhone%20Number: ' + number + '%0A%0Asubject: ' + subject + '%0A%0APesan: ' + msg  + ' %0A%0AWebsite ' + via_url);
+                        msg = $('#whatsapp .msg').val();
+                    $(this).attr('href', url_wa + '?phone=6285156633114'+ tujuan + '&text=Name: ' + name + ' %0A%0AEmail: ' + email + ' %0A%0APhone%20Number: ' + number + '%0A%0Asubject: ' + subject + '%0A%0APesan: ' + msg  + ' %0A%0AWebsite ' + via_url);
                     var w = 960,
                         h = 540,
                         left = Number((screen.width / 2) - (w / 2)),
