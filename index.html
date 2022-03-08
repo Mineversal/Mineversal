@@ -195,7 +195,7 @@
                     </div>
                     <!-- ASK FORM -->
                     <div class="col-md-7 col-sm-12 col-ask-form py-3 px-5 mb-2">
-                        <form method="" action="" id="whatsapp">
+                        <form method="POST" action="https://formsubmit.co/admin@mineversal.com" id="whatsapp">
                             <input class="tujuan" type="hidden" id="noAdmin">
                             <div class="row mb-4">
                                 <div class="col">
@@ -219,7 +219,7 @@
                                 </div>
                             </div>
                             <div class="text-center">
-                                <a type="submit" style="width: 10rem;" class="btn btn-dark submit" name="btn-send">Send Message</a>
+                                <a type="submit" value="Send" style="width: 10rem;" class="btn btn-dark submit" name="btn-send">Send Message</a>
                             </div>
                         </form>
                     </div>
@@ -292,9 +292,12 @@
                 $('#whatsapp').toggleClass('toggle');
             });
             // Onclick Whatsapp Sent!
-            $('#whatsapp .submit').click(WhatsApp);
+            $('#whatsapp .submit').click(
+                alert("Message has been send!");
+                //WhatsApp
+            );
             $("#whatsapp input, #whatsapp textarea").keypress(function () {
-                if (event.which == 13) whatsApp();
+                //if (event.which == 13) whatsApp();
             });
             var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
             function WhatsApp() {
