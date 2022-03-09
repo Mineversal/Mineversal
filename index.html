@@ -297,11 +297,11 @@
             });
             // Onclick Whatsapp Sent!
             $('#whatsapp .submit').click(
-                alert("Message has been send!");
-                //WhatsApp
+                //alert("Message has been send!");
+                WhatsApp
             );
             $("#whatsapp input, #whatsapp textarea").keypress(function () {
-                //if (event.which == 13) whatsApp();
+                if (event.which == 13) whatsApp();
             });
             var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
             function WhatsApp() {
